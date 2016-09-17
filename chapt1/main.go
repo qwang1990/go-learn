@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func init() {
+	fmt.Println("hahahah")
+}
+
 func main()  {
 	fmt.Printf("hello world\n")
 	_,_,name:=GetName();

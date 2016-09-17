@@ -8,8 +8,8 @@ import (
 	"io"
 	"strconv"
 	"time"
-	"chapt2-sorter/algorithms/qsort"
-	"chapt2-sorter/algorithms/bubblesort"
+	"go-learn/chapt2-sorter/algorithms/qsort"
+	"go-learn/chapt2-sorter/algorithms/bubblesort"
 )
 
 var infile *string = flag.String("i","infile","File contains values for sorting")
